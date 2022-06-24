@@ -1,0 +1,81 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(/intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+    background-color:hsl(0, 100%, 74%)  ;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 10%;
+}
+
+.flex-item-1{
+    width: 50%;
+    color: white;
+}
+h1{
+   margin-top:20% ;
+   font-weight: 700;
+   width: 50%;
+}
+p{
+    margin-top: 5%;
+    text-align: start;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(255, 8%, 90%);
+    width: 80%;
+}
+.flex-head{
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5%;
+    height: 10%;
+    padding-top: 2%;
+    border-radius: 10px;
+    box-shadow: 1px 10px 5px rgb(187, 97, 97);
+}
+.flex-form{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 10px 5px rgb(187, 97, 97);
+    width: 100%;
+    border: 1px solid beige;
+}
+form{
+    width: 100%;
+    padding:0% 5%;
+}
+input{
+    height: 50px;
+}
+.text{
+    margin-top: 5%;
+    color:  hsl(249, 10%, 26%) ;
+}
+.btn{
+    background-color:  hsl(154, 59%, 51%);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(28, 82, 3);
+    text-transform: uppercase;
+    margin: 5% auto 3% auto;
+}
+label{
+    color: hsl(246, 25%, 77%);
+    font-size: 14px;
+    margin-bottom: 10%;
+}
+.btn:hover{
+    background-color:  hsl(154, 73%, 78%);
+    color: white;
+}
+#error1,#error2,#error3,#error4{
+    border: 1px solid red;
+    background-image: url(/intro-component-with-signup-form-master/images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: center right 30px;
+}
+#error3::placeholder{
+     color: red;
+}
